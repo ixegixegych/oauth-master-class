@@ -37,11 +37,11 @@ window.onload = () => {
   document.getElementById("button").onclick = () => {
 window.YaAuthSuggest.init(
       {
-        client_id: "c46f0c53093440c39f12eff95a9f2f93",
+        client_id: "8b4f139d250a4b528608613c70badbd1",
         response_type: "token",
-        redirect_uri: "https://oauth-master-class-lake.vercel.app/token.html",
+        redirect_uri: "https://oauth-master-class-kappa.vercel.app/token.html",
       },
-      "https://oauth-master-class-lake.vercel.app",
+      "https://oauth-master-class-kappa.vercel.app/",
       {
         parentId: "buttonContainer",
         view: "button",
