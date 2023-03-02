@@ -1,3 +1,6 @@
 window.onload = () => {
-  // TODO
+YaSendSuggestToken(
+   'https://oauth-master-class-kappa.vercel.app/', {
+      flag: true
+   }
 };
