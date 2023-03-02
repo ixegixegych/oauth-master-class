@@ -45,8 +45,8 @@ window.YaAuthSuggest.init(
       {
         parentId: "buttonContainer",
         view: "button",
-        buttonTheme: "light",
-        buttonSize: "xs",
+        buttonTheme: "dark",
+        buttonSize: "l",
         buttonBorderRadius: 40,
       }
     )
