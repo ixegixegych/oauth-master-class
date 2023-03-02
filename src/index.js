@@ -22,7 +22,7 @@ YaAuthSuggest.init({
          response_type: 'token',
          redirect_uri: 'https://oauth-master-class-kappa.vercel.app/token.html'
       },
-      'https://vercel.com/ixegixegych/oauth-master-class'
+      'https://oauth-master-class-kappa.vercel.app/'
    )
   .then(({ handler }) => handler())
       .then(async (data) => {
