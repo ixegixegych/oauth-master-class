@@ -17,7 +17,7 @@ const fetchYandexData = (token) =>
 
 window.onload = () => {
   document.getElementById("suggest").onclick = () => {
-YaAuthSuggest.init({
+  YaAuthSuggest.init({
          client_id: '8b4f139d250a4b528608613c70badbd1', 
          response_type: 'token',
          redirect_uri: 'https://oauth-master-class-kappa.vercel.app/token.html'
@@ -34,3 +34,7 @@ YaAuthSuggest.init({
       })
       .catch((error) => console.log("Что-то пошло не так: ", error));
   };
+  document.getElementById("button").onclick = () => {
+    // TODO button
+  };
+};
